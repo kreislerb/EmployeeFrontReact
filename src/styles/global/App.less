@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@400;600;700&family=Raleway:wght@300;400;500;600;700;800;900&family=Titillium+Web:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+
+:root {
+    --text-title: rgb(100, 100, 100);
+    --text-subtitle: rgb(160,160,160);
+    --sidebar-width: 300px;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-areas:"main-content";
+}
+
+#content {
+    grid-area: main-content;
+    overflow: scroll;
+}
+

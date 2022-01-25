@@ -1,0 +1,37 @@
+@import "../../../styles/themes/variables.less";
+
+.availability-content{
+    display: grid;
+    padding: 0px 70px;
+    grid-template-areas: 
+    'header' 
+    'table';
+}
+.availability-header{
+    grid-area: header;
+    display: grid;
+    margin:30px auto;
+    align-content: center;
+    letter-spacing: 0;
+}
+.availability-stvplus{
+    color: @primary-color;
+    letter-spacing: @letter-spacing-4;
+    font-size: @font-size-8;
+    .semibold-secondary;
+    align-self: center;
+    justify-self: center;
+}
+
+.availability-main-info{
+
+    font-size: @font-size-10;
+    color: @hightlight-color;
+    .bold-tertiary;
+
+}
+
+.availability-table{
+    grid-area: table;
+  
+}
