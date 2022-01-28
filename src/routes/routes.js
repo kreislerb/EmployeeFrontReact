@@ -1,5 +1,5 @@
 
-import EmployeePage from '../pages/FleetAvailability/EmployeesPage';
+import EmployeePage from '../pages/Employee/EmployeesPage';
 import PageNotFound from '../pages/PageNotFound/PageNotFound';
 
 
