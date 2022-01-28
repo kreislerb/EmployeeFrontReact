@@ -4,7 +4,7 @@ import TextField from '@mui/material/TextField';
 import axios from 'axios';
 import DataTable from './DataTable/DataTable';
 
-class EmployeersPage extends React.Component {
+class EmployeesPage extends React.Component {
 
     constructor(props){
         super(props)
@@ -104,4 +104,4 @@ class EmployeersPage extends React.Component {
     }
 }
 
-export default FleetAvailability;
+export default EmployeesPage;
